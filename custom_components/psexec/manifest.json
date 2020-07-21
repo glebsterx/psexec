@@ -1,0 +1,12 @@
+{
+  "domain": "psexec",
+  "name": "PsExec",
+  "documentation": "https://www.home-assistant.io/",
+  "dependencies": [],
+  "codeowners": [
+    "AlexxIT"
+  ],
+  "requirements": [
+    "pypsexec"
+  ]
+}
