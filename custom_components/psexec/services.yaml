@@ -1,0 +1,18 @@
+exec:
+  description: Exec PS command
+  fields:
+    host: 
+      description: Host
+      example: 192.168.1.123
+    username:
+      description: Username
+      example: user
+    password: 
+      description: Password
+      example: pass
+    encrypt: 
+      description: Если удалённый Windows старый (например win7) - необходимо указывать параметр `encrypt=false`.
+      example: false
+    command: 
+      description: Command
+      example: cmd.exe /c echo Hello World > c:\out.txt
